@@ -12,7 +12,7 @@ public class PessoaCandidata extends Pessoa {
    * Construtor PessoaCandidata.
    */
   public PessoaCandidata(String nome, int numero) {
-    super.setNome(nome);
+    this.setNome(nome);
     this.setNumero(numero);
     this.setVotos(0);
   }
@@ -31,6 +31,16 @@ public class PessoaCandidata extends Pessoa {
 
   public void setVotos(int votos) {
     this.votos = votos;
+  }
+
+  @Override
+  public String getNome() {
+    return super.getNome();
+  }
+
+  @Override
+  public void setNome(String name) {
+    super.setNome(name);
   }
 
   public void receberVoto() {
