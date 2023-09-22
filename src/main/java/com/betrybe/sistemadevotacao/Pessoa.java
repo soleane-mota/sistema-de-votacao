@@ -3,7 +3,7 @@ package com.betrybe.sistemadevotacao;
 /**
  * Classe abistrata Pessoa.
  */
-public class Pessoa {
+public abstract class Pessoa {
 
   private String nome;
 
